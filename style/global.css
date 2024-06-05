@@ -148,6 +148,9 @@ button {
   cursor: pointer;
 }
 
+body {
+  min-width: 1200px;
+}
 body header {
   background-color: #0e0e0e;
 }
@@ -156,8 +159,6 @@ body header .header_container {
   height: 100px;
   margin: 0 auto;
   background-color: #0e0e0e;
-  display: flex;
-  justify-content: center;
 }
 body header .header_container .header_content {
   max-width: 1110px;
@@ -193,7 +194,6 @@ body header .underline {
   align-items: center;
   margin-left: 0px;
   height: 636px;
-  width: 100%;
   background-color: #0e0e0e;
 }
 .first_page .Left_description {
@@ -244,4 +244,9 @@ body header .underline {
 }
 body {
   font-family: "Noto Sans Georgian", "sans-serif";
+}
+
+body header .header_container {
+  display: flex;
+  justify-content: center;
 }/*# sourceMappingURL=global.css.map */
