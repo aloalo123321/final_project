@@ -56,21 +56,162 @@
     margin-top: 200px;
     width: 100%;
     height: 284px;
+    .Headphone {
+    }
+    .speaker {
+    }
+
+    .earphones {
+    }
 
     .First_Product {
       width: 350px;
       height: 204px;
-      background-color: red;
+      background-color: #f1f1f1;
+      position: relative;
+      .Product_center1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 116px;
+        .Product_Title {
+          width: 133px;
+          height: 25px;
+          font-family: "Manrope", sans-serif;
+          font-size: 18px;
+          font-weight: 700;
+          line-height: 24.59px;
+          letter-spacing: 1.2857142686843872px;
+          text-align: center;
+          color: #000000;
+        }
+        .Products_Buy1 {
+          display: flex;
+          cursor: pointer;
+          width: 57.32px;
+          height: 18px;
+          .buy_icon {
+            font-family: "Manrope", sans-serif;
+            font-size: 13px;
+            font-weight: 700;
+            line-height: 17.76px;
+            letter-spacing: 1px;
+            color: #000000;
+            margin-right: 4px;
+          }
+        }
+      }
     }
     .Second_Product {
       width: 350px;
       height: 204px;
-      background-color: red;
+      background-color: #f1f1f1;
+      position: relative;
+      .Product_center2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 116px;
+        .Product_Title2 {
+          width: 133px;
+          height: 25px;
+          font-family: "Manrope", sans-serif;
+          font-size: 18px;
+          font-weight: 700;
+          line-height: 24.59px;
+          letter-spacing: 1.2857142686843872px;
+          text-align: center;
+          color: #000000;
+        }
+        .Products_Buy2 {
+          width: 57.32px;
+          height: 18px;
+          cursor: pointer;
+
+          display: flex;
+          .buy_icon1 {
+            margin-right: 4px;
+            font-family: "Manrope", sans-serif;
+            font-size: 13px;
+            font-weight: 700;
+            line-height: 17.76px;
+            letter-spacing: 1px;
+            color: #000000;
+          }
+        }
+      }
     }
     .Third_Product {
+      position: relative;
       width: 350px;
       height: 204px;
-      background-color: red;
+      background-color: #f1f1f1;
+      .Product_center3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 116px;
+        .Product_Title3 {
+          width: 133px;
+          height: 25px;
+          font-family: "Manrope", sans-serif;
+          font-size: 18px;
+          font-weight: 700;
+          line-height: 24.59px;
+          letter-spacing: 1.2857142686843872px;
+          text-align: center;
+          color: #000000;
+        }
+        .Products_Buy3 {
+          display: flex;
+          cursor: pointer;
+          width: 57.32px;
+          height: 18px;
+
+          .buy_icon2 {
+            font-family: "Manrope", sans-serif;
+            font-size: 13px;
+            font-weight: 700;
+            line-height: 17.76px;
+            letter-spacing: 1px;
+            margin-right: 4px;
+            color: #000000;
+          }
+        }
+      }
+    }
+  }
+  .Audio_Gear {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 112px;
+    width: 100%;
+    height: 588px;
+    .Audio_left {
+      margin-right: 62.5px;
+      .Audio_P {
+        width: 445px;
+        height: 88px;
+        font-family: "Manrope";
+        font-size: 41px;
+        font-weight: 700;
+        line-height: 44px;
+        letter-spacing: 1.4285714626312256px;
+      }
+      .Audio_description {
+        margin-top: 32px;
+        width: 445px;
+        height: 175px;
+        font-family: "Manrope";
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 25px;
+      }
+    }
+
+    .Audio_img {
+      margin-left: 62.5px;
     }
   }
 }
