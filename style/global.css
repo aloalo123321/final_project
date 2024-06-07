@@ -148,6 +148,20 @@ button {
   cursor: pointer;
 }
 
+@font-face {
+  font-family: "Noto Sans Georgian";
+  src: url("../../assets/fonts/NotoSansGeorgian-VariableFont_wdth,wght.ttf");
+}
+body {
+  font-family: "Noto Sans Georgian", "sans-serif";
+}
+
+body header .header_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 body {
   min-width: 1200px;
 }
@@ -170,6 +184,11 @@ body header .header_container .header_content {
 }
 body header .header_container .header_content .navigation {
   margin-right: 126px;
+}
+@media (max-width: 700px) {
+  body header .header_container .header_content .navigation {
+    display: none;
+  }
 }
 body header .header_container .header_content .navigation ul {
   display: flex;
@@ -245,10 +264,14 @@ body header .underline {
   height: 284px;
 }
 .main .Products .First_Product {
+  position: relative;
   width: 350px;
   height: 204px;
   background-color: #f1f1f1;
   position: relative;
+}
+.main .Products .First_Product .Headphone {
+  position: absolute;
 }
 .main .Products .First_Product .Product_center1 {
   display: flex;
@@ -389,17 +412,4 @@ body header .underline {
 }
 .main .Audio_Gear .Audio_img {
   margin-left: 62.5px;
-}
-
-@font-face {
-  font-family: "Noto Sans Georgian";
-  src: url("../../assets/fonts/NotoSansGeorgian-VariableFont_wdth,wght.ttf");
-}
-body {
-  font-family: "Noto Sans Georgian", "sans-serif";
-}
-
-body header .header_container {
-  display: flex;
-  justify-content: center;
 }/*# sourceMappingURL=global.css.map */
