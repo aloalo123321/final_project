@@ -1,1 +1,16 @@
+footer {
+  margin-top: 1167px;
+  height: 365px;
+  background-color: #101010;
 
+  .footer_Header {
+    ul {
+      display: flex;
+      margin-top: 75px;
+      li {
+        margin-right: 34px;
+        color: white;
+      }
+    }
+  }
+}

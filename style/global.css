@@ -162,6 +162,20 @@ body header .header_container {
   align-items: center;
 }
 
+footer {
+  margin-top: 1167px;
+  height: 365px;
+  background-color: #101010;
+}
+footer .footer_Header ul {
+  display: flex;
+  margin-top: 75px;
+}
+footer .footer_Header ul li {
+  margin-right: 34px;
+  color: white;
+}
+
 body {
   min-width: 1200px;
 }
@@ -198,6 +212,10 @@ body header .header_container .header_content .navigation ul li {
 }
 body header .header_container .header_content .navigation ul li a {
   color: white;
+  transition: color 0.6s ease;
+}
+body header .header_container .header_content .navigation ul li a:hover {
+  color: #d87d4a;
 }
 body header .underline {
   max-width: 1110px;
@@ -272,6 +290,8 @@ body header .underline {
 }
 .main .Products .First_Product .Headphone {
   position: absolute;
+  bottom: 122px;
+  left: 113px;
 }
 .main .Products .First_Product .Product_center1 {
   display: flex;
@@ -304,12 +324,21 @@ body header .underline {
   letter-spacing: 1px;
   color: #000000;
   margin-right: 4px;
+  transition: color 0.4s ease;
+}
+.main .Products .First_Product .Product_center1 .Products_Buy1 .buy_icon:hover {
+  color: #d87d4a;
 }
 .main .Products .Second_Product {
   width: 350px;
   height: 204px;
   background-color: #f1f1f1;
   position: relative;
+}
+.main .Products .Second_Product .speaker {
+  position: absolute;
+  bottom: 122px;
+  left: 113px;
 }
 .main .Products .Second_Product .Product_center2 {
   display: flex;
@@ -342,12 +371,21 @@ body header .underline {
   line-height: 17.76px;
   letter-spacing: 1px;
   color: #000000;
+  transition: color 0.4s ease;
+}
+.main .Products .Second_Product .Product_center2 .Products_Buy2 .buy_icon1:hover {
+  color: #d87d4a;
 }
 .main .Products .Third_Product {
   position: relative;
   width: 350px;
   height: 204px;
   background-color: #f1f1f1;
+}
+.main .Products .Third_Product .earphones {
+  position: absolute;
+  bottom: 136px;
+  left: 113px;
 }
 .main .Products .Third_Product .Product_center3 {
   display: flex;
@@ -380,6 +418,10 @@ body header .underline {
   letter-spacing: 1px;
   margin-right: 4px;
   color: #000000;
+  transition: color 0.4s ease;
+}
+.main .Products .Third_Product .Product_center3 .Products_Buy3 .buy_icon2:hover {
+  color: #d87d4a;
 }
 .main .Audio_Gear {
   display: flex;
