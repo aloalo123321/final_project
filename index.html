@@ -6,10 +6,16 @@
     <link rel="stylesheet" href="style/global.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
     <link
       href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
     <title>shualeduri</title>
   </head>
   <body>
@@ -57,21 +63,23 @@
     </header>
     <main class="main">
       <div class="first_page">
-        <div class="Left_description">
-          <p class="New_product">NEW PRODUCT</p>
-          <p class="Title">XX99 Mark II Headphones</p>
-          <p class="FPage_description">
-            Experience natural, lifelike audio and exceptional build quality
-            made for the passionate music enthusiast.
-          </p>
-          <button class="FPage_Button">See Product</button>
-        </div>
-        <div class="right_photo">
-          <img
-            class="Headphone_img"
-            src="./assets/png/headphones 1.png"
-            alt="headphone"
-          />
+        <div class="for_resposive">
+          <div class="Left_description">
+            <p class="New_product">NEW PRODUCT</p>
+            <p class="Title">XX99 Mark II Headphones</p>
+            <p class="FPage_description">
+              Experience natural, lifelike audio and exceptional build quality
+              made for the passionate music enthusiast.
+            </p>
+            <button class="FPage_Button">See Product</button>
+          </div>
+          <div class="right_photo">
+            <img
+              class="Headphone_img"
+              src="./assets/png/headphones 1.png"
+              alt="headphone"
+            />
+          </div>
         </div>
       </div>
       <div class="Products">
@@ -137,6 +145,29 @@
         </div>
         <img class="Audio_img" src="./assets/png/Bitmap (4).png" alt="Bitmap" />
       </div>
+      <div class="coultdown">
+        <div class="d">
+          <p class="title">BIG SUMMER SALE</p>
+          <div>
+            <div>
+              <p class="number" id="daysNumber"></p>
+              <p class="date">DAYS</p>
+            </div>
+            <div>
+              <p class="number" id="hoursNumber"></p>
+              <p class="date">HOURS</p>
+            </div>
+            <div>
+              <p class="number" id="minutesNumber"></p>
+              <p class="date">MINUTES</p>
+            </div>
+            <div>
+              <p class="number" id="secondsNumber"></p>
+              <p class="date">SECONDS</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
     <footer>
       <div class="footer_Header">
@@ -149,10 +180,10 @@
 
           <div>
             <ul>
-              <li>HOME</li>
-              <li>HEADPHONE</li>
-              <li>SPEAKERS</li>
-              <li>EARPHONES</li>
+              <li><a href="">HOME</a></li>
+              <li><a href="">HEADPHONE</a></li>
+              <li><a href="">SPEAKERS</a></li>
+              <li><a href="">EARPHONES</a></li>
             </ul>
           </div>
         </div>
@@ -168,8 +199,12 @@
         </div>
         <div>
           <img class="first_img" src="./assets/svg/header/Path.svg" alt="" />
-          <img src="./assets/svg/header/Path (1).svg" alt="" />
-          <img src="./assets/svg/header/Shape.svg" alt="" />
+          <img
+            class="first_img"
+            src="./assets/svg/header/Path (1).svg"
+            alt=""
+          />
+          <img class="first_img" src="./assets/svg/header/Shape.svg" alt="" />
         </div>
       </div>
       <div>
@@ -177,5 +212,6 @@
       </div>
     </footer>
     <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   </body>
 </html>

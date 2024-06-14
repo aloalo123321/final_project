@@ -1,5 +1,5 @@
 footer {
-  margin-top: 1167px;
+  margin-top: 256px;
   height: 365px;
   background-color: #101010;
 
@@ -10,6 +10,13 @@ footer {
       li {
         margin-right: 34px;
         color: white;
+        a {
+          color: white;
+          transition: color 0.6s ease;
+        }
+        a:hover {
+          color: #d87d4a;
+        }
       }
     }
   }
@@ -33,6 +40,7 @@ footer {
       margin-right: -17px;
       .first_img {
         margin-top: 76px;
+        cursor: pointer;
       }
     }
   }
